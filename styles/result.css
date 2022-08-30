@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(8, 31, 74);
+    color: white;
+}
+
+#nav {
+    height: 40px;
+    padding-left: 20px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#display {
+    margin: auto;
+    width: 80%;
+    height: 500px;
+}
+
+#main {
+    display: flex;
+    gap: 20px;
+}

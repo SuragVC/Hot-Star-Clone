@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Disney+Hotstar</title>
+</head>
+<link rel="stylesheet" href="styles/hotstarcss.css">
+
+<body>
+    <div id="navbar">
+        <div>
+            <img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" alt="logo">
+            <div id="Home">
+                <h3><a href="index.html">Home</a></h3>
+            </div>
+            <div id="trending">
+                <h3><a href="trending.html">Trending</a></h3>
+            </div>
+        </div>
+        <div>
+            <div id="search_box">
+                <input type="text" oninput="Debouncer(Search,800)" id="search_input" placeholder="Search">
+                <div id="searchout"></div>
+            </div>
+        </div>
+    </div>
+    <div id="addvertise_Bar"></div>
+    <div id="trending_list"></div>
+</body>
+
+</html>
+<script src="scripts/hotstarjs.js"></script>

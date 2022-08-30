@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(8, 31, 74);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navbar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar>div>img {
+    width: 100px;
+    height: 40px;
+}
+
+#navbar>div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#navbar>div:nth-child(1) a {
+    text-decoration: none;
+    color: white;
+}
+
+#search_input {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    width: 380px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#search_box {
+    margin-top: 5px;
+    width: 430px;
+    height: 40px;
+}
+
+#searchout_main {
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+    margin-top: 3px;
+    width: 380px;
+    height: 300px;
+    overflow: scroll;
+    overflow-x: inherit;
+    gap: 2px;
+    position: relative;
+}
+
+.inside_divs {
+    display: flex;
+    gap: 10px;
+}
+
+.inside_divs img {
+    width: 110px;
+    height: 100px;
+}
+
+
+/* __________________________End of NavBar________________________________ */
+
+#addvertise_Bar {
+    width: 100%;
+    height: 400px;
+    margin-top: 8px;
+}
+
+#addvertise_Bar img {
+    width: 100%;
+    height: 400px;
+}
+
+#trending_list {}
